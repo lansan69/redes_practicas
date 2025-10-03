@@ -1,0 +1,22 @@
+{
+    "C_Cpp.default.compileCommands": [
+        ""
+    ],
+    "latex-workshop.latex.build.clearLog.everyRecipeStep.enabled": false,
+    "C_Cpp.codeAnalysis.clangTidy.useBuildPath": false,
+    "latex-workshop.latex.outDir": "./out",
+    "latex-workshop.latex.tools": [
+        {
+            "name": "latexmk",
+            "command": "latexmk",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-pdf",
+                "-outdir=%OUTDIR%",
+                "%DOC%"
+            ]
+        }
+    ]
+}
